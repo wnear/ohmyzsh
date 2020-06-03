@@ -97,3 +97,11 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+alias agsrc='ag -G ".*\.([ch]|cpp)$"'
+alias nv='nvim'
+alias mkcs='echo wait for implementation for now'
+export QT_SELECT=5.12.8
+#export LD_LIBRARY_PATH=$HOME/Qt5.12.8/5.12.8/gcc_64/lib/:$LD_LIBRARY_PATH
+
+#[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
