@@ -102,6 +102,8 @@ alias agsrc='ag -G ".*\.([ch]|cpp)$"'
 alias nv='nvim'
 alias vi='nvim'
 alias mkcs='echo wait for implementation for now'
+alias vsync='nvim -d ~/.config/nvim/init.vim ~/dotfile/neovim-init.vim/init.vim'
+alias zsync='nvim -d ~/.zshrc ~/dotfile/ohmyzsh/templates/zshrc.zsh-template'
 export QT_SELECT=5.12.8
 #export LD_LIBRARY_PATH=$HOME/Qt5.12.8/5.12.8/gcc_64/lib/:$LD_LIBRARY_PATH
 
