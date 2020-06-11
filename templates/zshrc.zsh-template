@@ -68,7 +68,7 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git svn)
+plugins=(git svn zsh-navigation-tools)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -105,6 +105,7 @@ alias mkcs='echo wait for implementation for now'
 alias vsync='nvim -d ~/.config/nvim/init.vim ~/dotfile/neovim-init.vim/init.vim'
 alias zsync='nvim -d ~/.zshrc ~/dotfile/ohmyzsh/templates/zshrc.zsh-template'
 export QT_SELECT=5.12.8
+alias open='xdg-open'
 #export LD_LIBRARY_PATH=$HOME/Qt5.12.8/5.12.8/gcc_64/lib/:$LD_LIBRARY_PATH
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
